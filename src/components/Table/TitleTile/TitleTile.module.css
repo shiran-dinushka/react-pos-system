@@ -1,0 +1,49 @@
+.label{
+    width: 39vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tableNo{
+    background: #FF5656;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #fff;
+    height:2rem;
+    width: 6rem;
+    margin: 15px 0px 0px 18px;
+    border-radius: 4px;
+}
+
+.edit{
+    height:1.5rem;
+    width: 1.5rem;
+    margin: 17px 27px 0px 0px;
+}
+
+.title{
+    width: 41vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins';
+    width: 15rem;
+    height: 2rem;
+}
+
+.id{
+    color: #9A9A9A;
+    font-size: 14px;
+    font-family: 'Poppins';
+    width: 15rem;
+    height: 1rem;
+}

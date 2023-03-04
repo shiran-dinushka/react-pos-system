@@ -1,0 +1,31 @@
+.outer{
+    width: 15rem;
+    height: 2rem;
+    background-color: #464646;
+    margin: auto;
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px #fff solid;
+    
+}
+
+.orderNo{
+    font-size: 1.2rem;
+    margin: auto;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.status{
+    font-size:0.6rem;
+    margin: auto;
+    background-color: #2980B9;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Poppins';
+    padding: 1px 15px;
+    width: 65px;
+}

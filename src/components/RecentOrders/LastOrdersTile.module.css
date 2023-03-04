@@ -1,0 +1,13 @@
+.outer{
+    height: 50vh;
+    width: 18vw;
+    background-color: #464646;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.title{
+    padding-top: 8px;
+    color: #B0B0B0;
+    
+}
