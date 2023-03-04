@@ -1,4 +1,4 @@
-This is my first React project. This project is a simple POS system
+# This is my first React project. This project is a simple POS system
 
 # Getting Started with Create React App
 
