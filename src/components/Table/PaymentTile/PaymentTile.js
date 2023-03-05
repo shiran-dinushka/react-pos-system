@@ -17,7 +17,8 @@ const PaymentTile = () =>{
             
             <div className={classes.totalPayment}>
                 <span className={classes.paymentTile}>Total Payment</span>
-                <span className={classes.totalPrice}>RS. 9000.00</span>
+                <button className={classes.totalPrice} src="">RS. 9000.00</button>
+                
             </div>
         </div>
     );

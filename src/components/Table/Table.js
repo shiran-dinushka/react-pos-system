@@ -6,7 +6,7 @@ import TitleTile from "./TitleTile/TitileTile";
 
 const Table = () =>{
     return(
-        <div>
+        <div className={classes.container}>
             <div className={classes.title}>
                 <TitleTile />
             </div>
@@ -17,8 +17,11 @@ const Table = () =>{
                 <PurchaseItemTile count="01" foodName="Faluda (L)" price="560.00"/>
                 <PurchaseItemTile count="01" foodName="Minchi" price="100.00"/>
                 <PurchaseItemTile count="15" foodName="Yohurt" price="1500.00"/>
+                <PurchaseItemTile count="15" foodName="Yohurt" price="1500.00"/>
+                <PurchaseItemTile count="15" foodName="Yohurt" price="1500.00"/>
                 
             </div>
+           
             <div className={classes.lowerTile}>
                 <PaymentTile />
             </div>

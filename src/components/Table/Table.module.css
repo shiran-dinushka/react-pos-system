@@ -1,3 +1,4 @@
+
 .title{
     width: 40vw;
     height: 15vh;
@@ -7,10 +8,28 @@
   .upperTile{
     width: 40vw;
     height: 43vh;
+    overflow-y: scroll;
     
   }
-  
+  .upperTile::-webkit-scrollbar{
+    display: none;
+  }
+
+.container {
+    position: relative;
+  }
+  .container::before {
+    content: '';
+    position: absolute;
+    top: 51.5%;
+    left: 2.5%;
+    width: 36.5vw;
+    height: 37px;
+    background: linear-gradient(rgba(29, 29, 29, 0.01),rgb(19, 19, 19) ); /* transparent keyword is broken in Safari */
+  }
+ 
   .lowerTile{
+    margin-top: 15px;
     width: 40vw;
     height: 40vh;
     

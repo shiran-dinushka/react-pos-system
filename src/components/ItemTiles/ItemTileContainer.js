@@ -5,12 +5,18 @@ const ItemTileContainer = () =>{
 
         return(
             <div className={classes.container}>
+                
                 <SingleItem />
                 <SingleItem />
                 <SingleItem />
                 <SingleItem />
                 <SingleItem />
                 <SingleItem />
+                <SingleItem />
+                <SingleItem />
+                <SingleItem />
+                
+                
             </div>
         );
     

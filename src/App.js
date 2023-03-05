@@ -1,4 +1,5 @@
 import './App.css';
+/*import CartItem from './components/Cart/CartItem';*/
 import FoodTileContainer from './components/FoodType/FoodTileContainer';
 import ItemTileContainer from './components/ItemTiles/ItemTileContainer';
 import MenuTile from './components/Menu/MenuTile';
@@ -10,6 +11,7 @@ import Table from './components/Table/Table'
 function App() {
   return (
     <div className="App">
+      
       <div className="navWithTiles">
         <div className="upperNav">
           <UpperNavNar />
@@ -36,8 +38,8 @@ function App() {
       </div>
       <div className="table">
           <Table />
-      </div>
-      
+  </div> 
+     {/* <CartItem />*/}
       
     </div>
   );
